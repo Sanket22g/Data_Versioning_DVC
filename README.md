@@ -1,22 +1,35 @@
 # Data_Versioning_DVC
 we use DVC
+
 Initialize
+
 dvc init
 
-Data
+
+# Data
 dvc add <file>
+
 dvc push
+
 dvc pull
 
-Remote
+
+# Remote
+
 dvc remote add -d name path
+
 dvc remote list
 
-Pipeline
+
+# Pipeline
+
 dvc stage add
+
 dvc repro
+
 dvc dag
 
-Version Control
+# Version Control
 dvc status
+
 dvc checkout
